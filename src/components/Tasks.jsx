@@ -3,7 +3,7 @@ function Tasks(){
 
     return(
         <div>
-            <h1>Gerenciador de Tarefas</h1>
+            <h1>Road to React</h1>
 
         </div>
     )
