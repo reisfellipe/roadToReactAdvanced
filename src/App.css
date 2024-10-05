@@ -33,4 +33,38 @@ body{
 li {
   color: #fff;
   font-weight: 500;
+  margin: 10px 0;
+  padding: 8px 0;
+  background-color: rgba(128, 128, 128, 0.41);
+  border-radius: 8px;
+
+  &:hover{
+    background-color: rgba(43, 68, 142, 0.597);
+    color: rgb(121, 190, 255);
+    transition: all .4s;
+  } 
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  & img {
+    width: 29px;
+    height: 29px;
+  }
+}
+
+.task-display{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  margin-right:25px;
 }

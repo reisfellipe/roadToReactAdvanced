@@ -1,3 +1,4 @@
+import arrow from '../assets/right-arrow.png';
 
 function Tasks(props){
 
@@ -5,7 +6,14 @@ function Tasks(props){
         
         <ul>
             {props.tasks.map((task) => (
-                <li>{task.title}</li>
+                <li key={task.id} className="task-display">
+                    <div className="button">
+                        {task.title}
+                    </div>   
+                    <button>
+                        <img src={arrow} alt="" />
+                    </button>  
+                </li>
             ))}
         </ul>
 
