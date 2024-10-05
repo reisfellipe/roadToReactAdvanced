@@ -7,7 +7,7 @@ function Tasks(props){
         <ul>
             {props.tasks.map((task) => (
                 <li key={task.id} className="task-display">
-                    <div className="button">
+                    <div onClick={() => props.onTaskClick(task.id)} className="button">
                         {task.title}
                     </div>   
                     <button>
