@@ -3,7 +3,11 @@ function Tasks(props){
 
     return(
         
-        <h1>{props.tasks[1].title}</h1>
+        <ul>
+            {props.tasks.map((task) => (
+                <li>{task.title}</li>
+            ))}
+        </ul>
 
     )   
     

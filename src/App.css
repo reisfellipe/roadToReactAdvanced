@@ -29,3 +29,8 @@ body{
     font-size: 1.7rem;
   }
 }
+
+li {
+  color: #fff;
+  font-weight: 500;
+}
