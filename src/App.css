@@ -68,3 +68,8 @@ ul{
   list-style: none;
   margin-right:25px;
 }
+
+.line-through {
+  text-decoration: line-through;
+  color: green;
+} 
